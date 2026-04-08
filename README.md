@@ -100,7 +100,12 @@ GitHub’s default activity feeds are noisy, inconsistent, and hard to scan.
 * Go (Golang)
 * Cobra (CLI framework)
 * GitHub Events API
-_ Yeah...its that simple_
+
+_Yeah...its that simple_
+
+---
+## Screenshots
+<img width="1039" height="201" alt="Screenshot 2026-04-08 203006" src="https://github.com/user-attachments/assets/2868e25a-beab-42b2-9887-e7143c4d40b2" />
 
 ---
 
