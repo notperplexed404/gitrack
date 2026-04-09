@@ -123,6 +123,7 @@ _Yeah...its that simple_
 PRs welcome. If you’ve got ideas to make it cleaner or faster — go for it, it's open source for a reason!
 
 ---
+<sub>uses the `MIT` LICENSE</sub>
 
 ## ⭐ Support
 If you like the project, drop a star ⭐
