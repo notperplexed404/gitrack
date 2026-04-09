@@ -107,6 +107,11 @@ _Yeah...its that simple_
 ## Screenshots
 <img width="1039" height="201" alt="Screenshot 2026-04-08 203006" src="https://github.com/user-attachments/assets/2868e25a-beab-42b2-9887-e7143c4d40b2" />
 
+<img width="1362" height="238" alt="image" src="https://github.com/user-attachments/assets/27448ae2-8d4b-420b-bf01-2cfc31f6d6fb" />
+
+<img width="1338" height="684" alt="image" src="https://github.com/user-attachments/assets/32cf6a91-16d1-40d9-b2aa-a4dc70ec8719" />
+<sub>Used `graphify` repo as examples here.</sub>
+
 ---
 
 ## 📌 Roadmap
