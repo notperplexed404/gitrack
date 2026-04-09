@@ -1,5 +1,5 @@
 /*
-Copyright © 2026 NOTPERPLEXED notperplexed@gmail.com
+Copyright © 2026 notperplexed notperplexed404@gmail.com
 */
 package cmd
 
@@ -15,7 +15,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var username string
+var Username string
 
 type GitHubEvent string
 
@@ -63,7 +63,7 @@ var trackCmd = &cobra.Command{
 	Short: "start the Activity Tracker",
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("Starting Track..")
-		url := fmt.Sprintf("https://api.github.com/users/%s/events", username)
+		url := fmt.Sprintf("https://api.github.com/users/%s/events", Username)
 		resp, err := http.Get(url)
 		if err != nil {
 			color.Red("ERROR: %s", err)
@@ -165,6 +165,6 @@ func init() {
 	// is called directly, e.g.:
 	// trackCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 
-	trackCmd.Flags().StringVarP(&username, "user", "u", "notperplexed", "Track Username")
+	trackCmd.Flags().StringVarP(&Username, "user", "u", "notperplexed", "Track Username")
 	trackCmd.Flags().VarP(&filter, "type", "t", "Filter by event type")
 }
