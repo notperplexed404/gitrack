@@ -20,7 +20,7 @@ A fast, minimal CLI to track GitHub user activity in real time — cleanly filte
  - Download the `.exe` file. 
  - Add to Path
 
-### Manual setup (recommended, due to cross platform)
+### Manual setup 
 ```bash
 git clone https://github.com/yourusername/gitrack
 cd gitrack
@@ -71,6 +71,24 @@ gitrack track -u torvalds -t issues
 | `create`       | `CreateEvent`       |
 | `release`      | `ReleaseEvent`      |
 
+---
+
+## PR Tracking
+Example:
+```bash
+go run main.go trackPr -u safishamsi -r graphify --state merged
+```
+output
+```bash
+→ ✅ Add README example for using graph.json with an... gdesai23
+→ ✅ docs: add Japanese README                          eltociear
+→ ✅ fix: git hooks fail when graphify is installed ... Minidoracat
+→ ✅ feat: add Trae and Trae CN platform support        ljinshuan
+→ ✅ Fix #19: Suppress ANSI escape codes breaking Po... azizur100389
+→ ✅ security: SSRF private IP blocking + Neo4j Cyph... bperkins-oss
+→ ✅ feat: add Swift language support                   douglance
+→ ✅ docs: add Simplified Chinese README                cyxer000
+```
 ---
 
 ## 🖥 Example Output
