@@ -25,7 +25,7 @@ jobs:
       run: GOOS=windows GOARCH=amd64 go build -o gitrack.exe
 
     - name: Build-Linux
-      run: GOOS=linux GOARCH=amd64 go build -o gitrack
+      run: GOOS=linux GOARCH=amd64 go build -v -o gitrack
 
     - name: Test
       run: go test -o gitrack
