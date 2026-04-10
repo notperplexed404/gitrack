@@ -52,6 +52,7 @@ var trackPrCmd = &cobra.Command{
 			panic(err)
 		}
 
+		defer resp.Body.Close()
 		var prs []PullRequest
 		json.NewDecoder(resp.Body).Decode(&prs)
 
